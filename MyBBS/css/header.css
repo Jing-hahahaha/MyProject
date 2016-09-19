@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 70px;
+    width: 1050px;
+    margin: 0 auto;
+    background: #B4DAF0;
+}
+
+/*导航容器*/
+.container{
+    /*width: 1000px;*/
+    height: 55px;
+    /*border: 1px solid black;*/
+}
+
+/*Logo链接*/
+.navbar-brand{
+    width: 200px;
+    padding: 0;
+    height: 55px;
+    /*border: 1px solid black;*/
+}
+.navbar-brand img{
+    width: 200px;
+    height: 52px;
+    display: inline-block;
+    /*border: 1px solid black;*/
+}
+
+.navbar-form .form-group input{
+    width: 400px;
+    background: #F2F2F5;
+}
+
+/*导航链接登录注册*/
+p.navbar-right a.navbar-link{
+    text-decoration: none;
+}
+p.navbar-right a.navbar-link:hover{
+    color: red;
+}
+p.navbar-right span{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    color: #ccc;
+}
+
+/*导航个人中心*/
+#personal_menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    background: white;
+}
+#personal_menu li a{
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+#personal_menu li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+/*导航发帖模态框*/
+#edit_textarea{
+    width: 568px;
+    height: 150px;
+    overflow-y: auto;
+}
+#addition a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+/*表情包动态图*/
+.tab-pane ul{
+    list-style: none;
+    padding: 0;
+}
+.tab-pane ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.tab-pane ul li:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+img.feeling_pic{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+}
+
+
+
+
+
+/*模态框*/
+/*注册*/
+span#tip_user,#tip_pwd,#tip_check{
+    margin-left: 20px;height: 34px;line-height: 34px
+}
+
+
+/*登录*/
+span#tip_user_login,#tip_pwd_login,#tip_check_login{
+    margin-left: 20px;height: 34px;line-height: 34px
+}
+
+
+.glyphicon-remove{
+    color:red;
+}
+
+.glyphicon-ok{
+    color:green;
+}
+
+
+
+/*返回顶部*/
+#return_top{
+    width:45px;
+    height:45px;
+    position: fixed;
+    display: block;
+    bottom: 40px;
+    right: 100px;
+    background-image: url('../image/top1.png')
+}

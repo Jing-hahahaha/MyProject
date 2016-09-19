@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+#container{
+    margin: 0 auto 10px auto;
+    width: 900px;
+    padding: 20px;
+    background: white;
+}
+
+#admin_menu li{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    text-align: center;
+}
+#admin_content{
+    padding: 35px 0 0 0;
+}
+
+
+
+
+/*用户、帖子管理*/
+.admin_box{
+    margin-top: 50px;
+}
+.admin_box table{
+    width: 100%;
+}
+.admin_box table th,td{
+    text-align: center;
+}
+.admin_box table th{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.admin_box table td{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    -o-text-overflow:ellipsis;
+    white-space: nowrap;/*强制不换行*/
+}
+.admin_box table tr{
+    display: inline-block;
+}
+.admin_box table tr:first-child{
+    background: lightcoral;
+}
+.admin_box table tr:not(:first-child):nth-child(odd){
+    background: palegreen;
+}
+.admin_bottom{
+    margin-top: 50px;
+}
+.admin_bottom_left{
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+}
+.admin_bottom_right{
+    display: inline-block;
+    float: right;
+}
+.admin_bottom_right ol{
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+
+
+#user_del{
+    margin: 0 50px;
+}
+#user_add{
+    margin-right: 50px;
+}
+
+
+#article_del{
+    margin: 0 50px;
+}
+#article_add{
+    margin-right: 50px;
+}
+
+
+
+/*头像选择*/
+#face_cantainer{
+    padding: 10px;
+    overflow-y: auto;
+}
+#face_cantainer ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+#face_cantainer li{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 20px 0;
+}
+#face_cantainer img:hover{
+    cursor: pointer;
+}
+
+
+
+/*新增帖子*/
+#insert_textarea{
+    width: 568px;
+    height: 150px;
+    overflow-y: auto;
+}
+#insert_addition a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+/*编辑帖子*/
+#edit_article_textarea{
+    width: 568px;
+    height: 150px;
+    overflow-y: auto;
+}
+#edit_addition a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

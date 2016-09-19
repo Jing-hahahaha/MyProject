@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/*左边菜单*/
+#left{
+    width: 150px;
+    float: left;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+    background: #95C5E3;
+}
+#menu li{
+    height: 40px;
+    line-height: 40px;
+    font-size: large;
+    color: white;
+    display: block;
+}
+#menu li:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background: #A9D1E9;
+}
+#menu li span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+
+
+
+/*中间帖子*/
+#center{
+    width: 630px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+#center .article{
+    width: 630px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 10px;
+}
+.article .title{
+    margin: 0;
+    font-family: '微软雅黑';
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+    -o-text-overflow:ellipsis;  /*针对Opera*/
+}
+.content{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.article_img{
+    height: 120px;
+    margin-bottom: 10px;
+}
+.article_img img{
+    display: inline-block;
+    width: 190px;
+    height: 120px;
+    margin: 0 10px 0 0;
+}
+.article_bottom_left{
+    display: inline-block;
+    float: left;
+}
+.article_bottom_right{
+    display: inline-block;
+    float: right;
+}
+
+.article_bottom_left .author{
+    margin-right: 20px;
+}
+.article_bottom_right .readcount{
+    margin-right: 20px;
+    color: #ffba66;
+}
+.article_bottom_right .commentcount{
+    color: #ffba66;
+}
+.readcount span,.commentcount span{
+    margin-right: 5px;
+}
+
+#center_load{
+    margin: 10px 0;
+    background: white;
+    text-align: center;
+}
+
+
+
+/*右边个人中心*/
+#personal_introduce{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+#introduce_top{
+    text-align: center;
+}
+#introduce_face{
+    width: 80px;
+    height: 80px;
+}
+#signature{
+    color: #a5a9a3;
+    padding: 10px 0;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+    -o-text-overflow:ellipsis;  /*针对Opera*/
+    border-bottom: 1px solid #ccc;
+}
+#introduce_bottom{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+#follow,#follower,#topic{
+    display: inline-block;
+    width: 76px;
+    float: left;
+}
+
+
+
+
+/*右边推荐好友*/
+#right{
+    width: 250px;
+    padding: 10px;
+    background: #ffffff;
+}
+#right_top{
+    height: 30px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+#right_top span{
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+#right_top #refresh{
+    float:right;
+}
+#right_top #refresh:hover{
+    text-decoration: none;
+}
+#right ul#friend_list .face{
+    width: 50px;
+    height: 50px;
+}
+#right ul#friend_list{
+    list-style: none;
+    clear: both;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+#right ul#friend_list li{
+    margin-bottom: 10px;
+}
+#right ul#friend_list li .friend{
+    width: 170px;
+    float: right;
+}
+.signature{
+    margin-top: 5px;
+    color: #a5a9a3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

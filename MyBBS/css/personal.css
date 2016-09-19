@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+/*主体部分*/
+#container{
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+}
+
+/*顶部*/
+#top{
+    height: 300px;
+    text-align: center;
+    background: url(../image/background/0.jpg);
+    border: 1px solid transparent;
+}
+#face{
+    margin: 50px 0 20px 0;
+}
+#face img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    /*border: 1px solid black;*/
+}
+#signature{
+    margin-top: 10px;
+}
+#focus{
+    margin-right: 40px;
+}
+
+/*菜单导航*/
+#menu{
+    text-align: center;
+    display: inline-block;
+}
+#menu li{
+    width: 150px;
+}
+#menu li a{
+    font-family: '微软雅黑';
+    font-weight: bold;
+}
+
+
+
+/*下面选项卡内容*/
+#content_left{
+    width: 960px;
+    padding: 10px;
+    min-height: 500px;
+    _height:500px;  /*兼容IE6*/
+    margin-bottom: 10px;
+}
+
+
+/*帖子*/
+.article_num{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    border-bottom: 1px solid #ccc;
+}
+.content_article{
+    /*margin-top: 10px;*/
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.article_title a{
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+}
+.article_title a{
+    color: black;
+}
+.article_title a:hover{
+    color: red;
+}
+.article_content{
+    margin-top: 10px;
+    background: white;
+    line-height: 28px;
+    font-size: 16px;
+}
+.article_time{
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+
+/*个人资料*/
+#basic_introduce{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#myface{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    /*border: 1px solid black;*/
+}
+#myface:hover{
+    cursor: pointer;
+}
+
+
+/*我的回复*/
+#reply_num{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    border-bottom: 1px solid #ccc;
+}
+.reply_list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.my_content{
+    margin-top: 10px;
+    line-height: 30px;
+}
+.delete{
+    float: right;
+}
+.topic_title{
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/*发私信*/
+#message_textarea{
+    width: 568px;
+    height: 150px;
+    overflow-y: auto;
+}
+#message_addition a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+/*查看私信*/
+#message_num{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    border-bottom: 1px solid #ccc;
+}
+#message_box{
+    margin-top: 20px;
+}
+#message_box table{
+    width: 940px;
+}
+#message_box table,th,td{
+    text-align: center;
+}
+#message_box table tr{
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+#message_box table th{
+    display: inline-block;
+    color: #ed6f3b;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+#message_box table td{
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    -o-text-overflow:ellipsis;
+    white-space: nowrap;/*强制不换行*/
+}
+
+
+
+/*私信详情*/
+#letter_container{
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+
+
+
+/*关注列表*/
+#following_num{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    border-bottom: 1px solid #ccc;
+}
+#following_list{
+    margin-top: 20px;
+}
+#following_list ol{
+    list-style: none;
+    padding: 0;
+    width: 900px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+#following_list ol li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 50px 50px 0;
+}
+.following_face{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+
+/*粉丝列表*/
+#followed_num{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    border-bottom: 1px solid #ccc;
+}
+#followed_list{
+    margin-top: 20px;
+}
+#followed_list ol{
+    list-style: none;
+    padding: 0;
+    width: 900px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+#followed_list ol li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 50px 50px 0;
+}
+.followed_face{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+
+/*头像选择*/
+#face_cantainer{
+    padding: 10px;
+    overflow-y: auto;
+}
+#face_cantainer ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+#face_cantainer li{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 20px 0;
+}
+#face_cantainer img:hover{
+    cursor: pointer;
+}
